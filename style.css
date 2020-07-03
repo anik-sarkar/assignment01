@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    font-family: 'Kelly Slab', cursive;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.name-highlight{
+    color: blueviolet
+}
+.orange-highlight{
+    color: orangered
+}
+.half-width{
+    width: 43%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("Images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+section{
+    height: 400px;
+    padding-bottom: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(45deg,blue,purple);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: rgb(226, 43, 180);
+    font-weight: 700;
+    transition: .3s;
+}
+.link-button:before{
+    content: '';
+    
+}
+.link-button:after{
+    content: '';
+    
+    
+}
+.link-button:hover{
+    color: #fff;
+    font-size: large;
+}
+
+.dream-area{
+    background-image: url("Images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+   
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
+.img{ 
+    background-image: url("Images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    margin: 70px ;
+    background-size: 100% 100%;
+}
+
+.row{
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+.clients{
+    background-image: url("Images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+.box{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, blue, purple);
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+    padding: 30px;
+    margin: 20px 400px 20px 400px
+}
