@@ -29,8 +29,8 @@ h2{
     background-size: 100% 100%;
 }
 section{
-    height: 400px;
-    padding-bottom: 100px;
+    height: 500px;
+    padding-bottom: 150px;
 }
 .link-button{
     text-decoration: none;
@@ -43,16 +43,19 @@ section{
 }
 .link-button:before{
     content: '';
+    background-image: '';
     
 }
 .link-button:after{
     content: '';
-    
+    background-image: '';
     
 }
 .link-button:hover{
     color: #fff;
     font-size: large;
+    background-image: large;
+
 }
 
 .dream-area{
@@ -68,8 +71,9 @@ footer p{
 .img{ 
     background-image: url("Images/latest-work-bg.png");
     background-repeat: no-repeat;
-    margin: 70px ;
     background-size: 100% 100%;
+    margin: 50px;
+    
 }
 
 .row{
@@ -80,7 +84,6 @@ footer p{
 .clients{
     background-image: url("Images/footer-bg.png");
     background-repeat: no-repeat;
-    background-size: cover;
     background-size: 100% 100%;
 }
 .box{
@@ -93,3 +96,6 @@ footer p{
     padding: 30px;
     margin: 20px 400px 20px 400px
 }
+
+
+    
